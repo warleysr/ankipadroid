@@ -33,9 +33,9 @@ class GeminiAPI {
 
         fun getAvailableModels(): Map<String, String> {
             return mapOf(
-                Pair("gemini-1.5-flash-latest", "Gemini 1.5 Flash"),
-                Pair("gemini-1.5-pro-latest", "Gemini 1.5 Pro"),
-                Pair("gemini-1.0-pro-latest", "Gemini 1.0 Pro"),
+                Pair("gemini-flash-latest", "Gemini Flash (Latest)"),
+                Pair("gemini-pro-latest", "Gemini Pro (Latest)"),
+                Pair("gemini-flash-lite-latest", "Gemini Flash-Lite (Latest)"),
             )
         }
     }
